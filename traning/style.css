@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     background-color: rgb(172, 172, 172); 
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.image-container {
+    background-image: url(https://img.freepik.com/premium-photo/handsome-black-african-american-man-working-laptop-computer-while-sitting-desk-cozy-living-room-freelancer-working-from-home_209729-1985.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 487px;
+}
+
+img {
+    width: 50px;
+    float: right;
+}
+
+.form-container {
+    display: flex;
+}
+
+h1 {
+    padding: 1rem;
+    margin-top: 0rem;
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    padding-left: 1rem;
+    margin-top: 15rem;
+    color: white;
+    font-size: 15px;
+}
+p {
+    padding-left: 1rem;
+    color: white;
+    font-size: 15px;
+}
+
+.form {
+    padding: 2rem;
+    background-color: white;
+}
+
+.sign-up {
+    color: rgb(58, 120, 255);
+    padding: 0;
+    margin-top: 5rem;
+}
+
+.form-flex {
+    display: flex;
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+.form-split {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    outline: none;
+    outline-color: none;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    width: 100%;
+}
+
+label {
+    font-weight: 600;
+    font-size: 10px;
+}
+
+#tell-us {
+    margin-top: 1rem;
+}
+
+#details {
+    padding: 0.5rem;
+}
+
+.create {
+    margin-top: 1rem;
+    float: right;
+    background-color: rgb(77, 77, 245);
+    border-style: none;
+    border-radius: 10px 0px 10px 0px;
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+    color: white;
+}
+
+#gender
+{
+    padding: 0.3rem 3rem 0.3rem 3rem;
+}
+
+#exp {
+    padding: 0.3rem 2rem 0.3rem 2rem;
+}
+
+#edu {
+    padding: 0.3rem 2rem 0.3rem 2rem;
+}
