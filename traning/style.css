@@ -18,7 +18,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 700px;
+    max-width: 700px;
     height: 487px;
 }
 
@@ -29,6 +29,7 @@ img {
 
 .form-container {
     display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -63,6 +64,7 @@ p {
 
 .form-flex {
     display: flex;
+    flex-direction: column;
     gap: 20px;
     margin-top: 1rem;
 }
@@ -115,4 +117,19 @@ label {
 
 #edu {
     padding: 0.3rem 2rem 0.3rem 2rem;
+}
+
+@media  (min-width: 480px) {
+   .form-container {
+    flex-direction: row;
+}
+
+.form-flex {   
+    flex-direction: row; 
+}
+.image-container { 
+    width: 700px;
+    height: 487px;
+}
+
 }
